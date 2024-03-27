@@ -1,7 +1,7 @@
 2966415750 // Revolution v1.3
 
 2822779497 // abandoned_demolition_v1
-2878306139 // abandoned_dz
+2999687281 // abandoned_v2_d
 2784589282 // blizzard_v3
 2804721789 // crossroads_demolition_v2
 2784615293 // crossroads_v5

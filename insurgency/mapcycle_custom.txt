@@ -1,5 +1,5 @@
 // abandoned_demolition_v1 skirmish
-abandoned_dz firefight
+abandoned_v2_d firefight
 blizzard_v3 firefight
 blizzard_v3 infiltrate
 crossroads_demolition_v2 skirmish
