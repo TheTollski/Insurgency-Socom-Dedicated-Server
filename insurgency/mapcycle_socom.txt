@@ -7,7 +7,6 @@ crossroads_v5 firefight
 crossroads_v5 infiltrate
 deathtrap_v1 firefight
 desertglory firefight
-desertglory occupy
 fishhook_v1 firefight
 frostfire_demolition_v1 skirmish
 frostfire_v6 firefight
@@ -15,10 +14,7 @@ nightstalker_demolition_v1 skirmish
 nightstalker_v2 firefight
 nightstalker_v2 infiltrate
 requiem_v2 firefight
-requiem_v2 occupy
 sandstorm firefight
 theruins firefight
-theruins occupy
 theruins_demolition_v2 skirmish
 vigilance_v1 firefight
-vigilance_v1 occupy
