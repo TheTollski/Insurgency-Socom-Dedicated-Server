@@ -1,0 +1,6 @@
+0.33440: Constructing
+0.79970: Cleaning up old states
+0.80060: Launching crash_handler.exe
+6.91063: Attempting to attach to crash_handler.exe
+6.91074: Adding custom info
+6.91375: Attached successfully (in-process).
