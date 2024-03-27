@@ -1,0 +1,753 @@
+detail
+{
+
+portal2_overgrown //Set detail material file for map to detailsprites_overgrown.vtf to use.
+	
+	{
+		"density" "2000" //how often they appear inside material
+		
+		Group1
+		{
+			"alpha" "1.0" //dirt
+
+			Model3 //Sage 02
+			{
+				"sprite"			"148 128 132 128 512"
+				"spritesize"		"0.35 0.06 14 14"
+				"spriterandomscale"	"0.3"
+				"amount" 			"0.06"
+				"detailOrientation" "2"
+			}
+			Model4 //California Poppy
+			{
+				"sprite"			"280 128 80 128 512"
+				"spritesize"		"0.5 0.0 13 20"
+				"spriterandomscale"	"0.2"
+				"amount" 			"0.06"
+				"detailOrientation"	"2"
+			}
+			Model6 //Grass 02
+			{
+				"sprite"			"360 160 152 96 512"
+				"spritesize"		"0.44 0.04 25 16"
+				"spriterandomscale"	"0.2"
+				"amount" 			"0.02"
+				"detailOrientation" "2"
+			}
+		}
+		
+		Group2
+		{
+			"alpha" "0.1" // forest edge
+			
+			Model1 //PineappleSage
+			{
+				"sprite" 			"0 0 148 256 512" //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.63 0.01 16.7 29" //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.3" //randomness of sprite sizes
+				"amount" 			"0.05" //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation" "2" //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			Model6 //Grass 02
+			{
+				"sprite"			"360 160 152 96 512"
+				"spritesize"		"0.44 0.04 28.5 18"
+				"spriterandomscale"	"0.1"
+				"amount" 			"0.15"
+				"detailOrientation" "2"
+			}
+			//Model9 //Yellow Weed
+			//{
+			//	"sprite"			"167 256 99 256 512"
+			//	"spritesize"		"0.4 0.02 14.7 38"
+			//	"spriterandomscale"	"0.3"
+			//	"amount"			"0.15"
+			//	"detailOrientation"	"2"
+			//}
+			Model10 //Lavendar
+			{
+				"sprite"			"265 256 248 256 512"
+				"spritesize"		"0.52 0.04 34 36"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			
+		}
+		
+		Group3
+		{
+			"alpha" "0.0" //leaves
+			
+			Model2 //Sapling
+			{
+
+				"sprite"			"148 0 132 128 512"
+				"spritesize"		"0.49 0.1 26 26"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.125"
+				"detailOrientation"	"2"
+			}
+			Model7 //Sapling 02
+			{
+
+				"sprite"			"0 256 120 256 512"
+				"spritesize"		"0.43 0.03 16.8 36"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.125"
+				"detailOrientation"	"2"
+			}
+			Model5 //Fern
+			{
+				"sprite" 			"344 0 168 160 512" 
+				"spritesize"		"0.52 0.08 29.4 28"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.3"
+				"detailOrientation"	"2"
+			}
+			Model8 //Slim Leafy Weed
+			{
+				"sprite"			"120 384 47 128 512"
+				"spritesize"		"0.48 0.02 10 20"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.15"
+				"detailOrientation"	"2"
+			}
+
+		}
+
+	}
+
+iraq_grass_dense //detailsprites.vtf
+	{
+		"density" "500"
+		
+		Group01
+		{
+			"alpha"	"1.0" //sand 
+				
+			Model1A // desert scrub sm
+			{
+				"sprite"	"256 768 128 64 1024"
+				"spritesize"	"0.5 0.01 18 9"
+				"spriterandomscale"	".33"
+				"amount"	".2"
+				"detailorientation"	"2"
+			}
+			
+			Model1B // desert scrub lg
+			{
+				"sprite"	"0 768 256 160 1024"
+				"spritesize"	"0.5 0.01 29 18"
+				"spriterandomscale"	".22"
+				"amount"	".1"
+				"detailorientation"	"2"
+			}
+			
+			Model1C // tall weed cluster
+			{
+				"sprite"	"640 512 128 256 1024"
+				"spritesize"	"0.5 0.01 18 36"
+				"spriterandomscale"	".20"
+				"amount"	".01"
+				"detailorientation"	"2"
+				"maxangle"	"17"
+			}
+						
+			Model1E // lg yellow tipped bush
+			{
+				"sprite"			"512 0 512 256 1024"
+				"spritesize"		"0.5 0.01 60 44"
+				"spriterandomscale"	"0.25"
+				"amount" 			".01"
+				"detailOrientation" "2"
+				"maxangle"	"05"
+			}
+
+		}
+		
+		Group02
+		{
+			"alpha"	"0.0"	//grass
+						
+			Model2B // tan wildgrass tuft
+			{
+				"sprite"		"0 256 256 256 1024"
+				"spritesize"	"0.5 0.01 24 24"
+				"spriterandomscale"	".3"
+				"amount"	".1"
+				"detailorientation"	"2"
+			}
+			
+			Model2C // tan grass tuft
+			{
+				"sprite"	"768 512 256 256 1024"
+				"spritesize"	"0.5 0.01 24 24"
+				"spriterandomscale"	".20"
+				"amount"	".18"
+				"detailorientation"	"2"
+			}
+			
+			Model2D // sandgrass small
+			{
+				"sprite"	"0 512 128 128 1024"
+				"spritesize"	"0.5 0.1 18 18"
+				"spriterandomscale"	".25"
+				"amount"	".18"
+				"detailorientation"	"2"
+			}
+			
+			Model2E // sandgrass large
+			{
+				"sprite"	"128 512 128 128 1024"
+				"spritesize"	"0.5 0.1 20 20"
+				"spriterandomscale"	".20"
+				"amount"	".16"
+				"detailorientation"	"2"
+			}
+			
+			Model2F // sandgrass med
+			{
+				"sprite"	"0 640 128 128 1024"
+				"spritesize"	"0.5 0.05 19 19"
+				"spriterandomscale"	".20"
+				"amount"	".18"
+				"detailorientation"	"2"
+			}
+			
+			Model2G // sandgrass alt
+			{
+				"sprite"	"256 512 128 128 1024"
+				"spritesize"	"0.5 0.05 19 19"
+				"spriterandomscale"	".20"
+				"amount"	".1"
+				"detailorientation"	"2"
+			}	
+			
+			Model2H // lg blue tipped bush
+			{
+				"sprite" "0 0 512 256 1024"
+				"spritesize" "0.5 0.01 64 48"
+				"spriterandomscale" "0.25"
+				"amount" ".01"
+				"detailOrientation" "2"
+				"maxangle" "07"
+			}
+			
+			Model2I // lg yellow tipped bush
+			{
+				"sprite"			"512 0 512 256 1024"
+				"spritesize"		"0.5 0.01 60 44"
+				"spriterandomscale"	"0.25"
+				"amount" 			".03"
+				"detailOrientation" "2"
+				"maxangle"	"08"
+			}
+			
+			Model2J // tall weed cluster
+			{
+				"sprite"	"640 512 128 256 1024"
+				"spritesize"	"0.5 0.01 18 36"
+				"spriterandomscale"	".20"
+				"amount"	".02"
+				"detailorientation"	"2"
+			}
+			
+			Model2K // thin tall leafy weed
+			{
+				"sprite"	"768 256 256 256 1024"
+				"spritesize"	"0.5 0.01 20 44"
+				"spriterandomscale"	".25"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+			Model2L // dryshrub (crabgrass)
+			{
+				"sprite"	"256 640 128 128 1024"
+				"spritesize"	"0.5 0.05 32 32"
+				"spriterandomscale"	".22"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+			Model2M // weedy cluster
+			{
+				"sprite"	"512 768 256 256 1024"
+				"spritesize"	"0.5 0.01 28 28"
+				"spriterandomscale"	".33"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+			Model2N // thin tall weed
+			{
+				"sprite"	"512 512 128 256 1024"
+				"spritesize"	"0.5 0.01 10 24"
+				"spriterandomscale"	".3"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+		}
+		
+	}
+	
+	iraq_street_sparse //detailsprites.vtf
+	{
+		"density" "500"
+		
+		Group01
+		{
+			"alpha"	"1.0" //sand 
+				
+			Model1A // desert scrub sm
+			{
+				"sprite"	"256 768 128 64 1024"
+				"spritesize"	"0.5 0.01 18 9"
+				"spriterandomscale"	".33"
+				"amount"	".2"
+				"detailorientation"	"2"
+			}
+			
+			Model1B // desert scrub lg
+			{
+				"sprite"	"0 768 256 160 1024"
+				"spritesize"	"0.5 0.01 29 18"
+				"spriterandomscale"	".22"
+				"amount"	".1"
+				"detailorientation"	"2"
+			}
+			
+			Model1C // tall weed cluster
+			{
+				"sprite"	"640 512 128 256 1024"
+				"spritesize"	"0.5 0.01 18 36"
+				"spriterandomscale"	".20"
+				"amount"	".01"
+				"detailorientation"	"2"
+				"maxangle"	"17"
+			}
+						
+			Model1E // lg yellow tipped bush
+			{
+				"sprite"			"512 0 512 256 1024"
+				"spritesize"		"0.5 0.01 60 44"
+				"spriterandomscale"	"0.25"
+				"amount" 			".01"
+				"detailOrientation" "2"
+				"maxangle"	"05"
+			}
+
+		}
+		
+		Group02
+		{
+			"alpha"	"0.25"	//asphalt
+						
+			
+			Model2D // sandgrass small
+			{
+				"sprite"	"0 512 128 128 1024"
+				"spritesize"	"0.5 0.1 18 18"
+				"spriterandomscale"	".25"
+				"amount"	".02"
+				"detailorientation"	"2"
+			}
+			
+			Model2E // sandgrass large
+			{
+				"sprite"	"128 512 128 128 1024"
+				"spritesize"	"0.5 0.1 20 20"
+				"spriterandomscale"	".20"
+				"amount"	".02"
+				"detailorientation"	"2"
+			}
+			
+			Model2F // sandgrass med
+			{
+				"sprite"	"0 640 128 128 1024"
+				"spritesize"	"0.5 0.05 19 19"
+				"spriterandomscale"	".20"
+				"amount"	".02"
+				"detailorientation"	"2"
+			}
+			
+			Model2G // sandgrass alt
+			{
+				"sprite"	"256 512 128 128 1024"
+				"spritesize"	"0.5 0.05 19 19"
+				"spriterandomscale"	".20"
+				"amount"	".02"
+				"detailorientation"	"2"
+			}	
+			
+			Model2J // tall weed cluster
+			{
+				"sprite"	"640 512 128 256 1024"
+				"spritesize"	"0.5 0.01 18 36"
+				"spriterandomscale"	".20"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+			Model2K // thin tall leafy weed
+			{
+				"sprite"	"768 256 256 256 1024"
+				"spritesize"	"0.5 0.01 20 44"
+				"spriterandomscale"	".25"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+			Model2L // dryshrub (crabgrass)
+			{
+				"sprite"	"256 640 128 128 1024"
+				"spritesize"	"0.5 0.05 22 22"
+				"spriterandomscale"	".22"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+			Model2M // weedy cluster
+			{
+				"sprite"	"512 768 256 256 1024"
+				"spritesize"	"0.5 0.01 28 28"
+				"spriterandomscale"	".33"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+			Model2N // thin tall weed
+			{
+				"sprite"	"512 512 128 256 1024"
+				"spritesize"	"0.5 0.01 10 24"
+				"spriterandomscale"	".3"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+		}
+		
+		Group03
+		{
+			"alpha"	"0.0" //asphalt
+		}
+		
+	}
+	
+	
+	somalia_grass_beach //detailsprites.vtf
+	{
+		"density" "500"
+		
+		Group01
+		{
+			"alpha"	"1.0" //sand 
+		}
+		
+		Group02
+		{
+			"alpha"	"0.0"	//grass
+						
+			Model2B // tan wildgrass tuft
+			{
+				"sprite"		"0 256 256 256 1024"
+				"spritesize"	"0.5 0.01 24 24"
+				"spriterandomscale"	".3"
+				"amount"	".1"
+				"detailorientation"	"2"
+			}
+			
+			Model2C // tan grass tuft
+			{
+				"sprite"	"768 512 256 256 1024"
+				"spritesize"	"0.5 0.01 24 24"
+				"spriterandomscale"	".20"
+				"amount"	".18"
+				"detailorientation"	"2"
+			}
+			
+			Model2D // sandgrass small
+			{
+				"sprite"	"0 512 128 128 1024"
+				"spritesize"	"0.5 0.1 18 18"
+				"spriterandomscale"	".25"
+				"amount"	".18"
+				"detailorientation"	"2"
+			}
+			
+			Model2E // sandgrass large
+			{
+				"sprite"	"128 512 128 128 1024"
+				"spritesize"	"0.5 0.1 20 20"
+				"spriterandomscale"	".20"
+				"amount"	".16"
+				"detailorientation"	"2"
+			}
+			
+			Model2F // sandgrass med
+			{
+				"sprite"	"0 640 128 128 1024"
+				"spritesize"	"0.5 0.05 19 19"
+				"spriterandomscale"	".20"
+				"amount"	".18"
+				"detailorientation"	"2"
+			}
+			
+			Model2G // sandgrass alt
+			{
+				"sprite"	"256 512 128 128 1024"
+				"spritesize"	"0.5 0.05 19 19"
+				"spriterandomscale"	".20"
+				"amount"	".1"
+				"detailorientation"	"2"
+			}	
+			
+			Model2H // lg blue tipped bush
+			{
+				"sprite" "0 0 512 256 1024"
+				"spritesize" "0.5 0.01 64 48"
+				"spriterandomscale" "0.25"
+				"amount" ".01"
+				"detailOrientation" "2"
+				"maxangle" "07"
+			}
+			
+			Model2I // lg yellow tipped bush
+			{
+				"sprite"			"512 0 512 256 1024"
+				"spritesize"		"0.5 0.01 60 44"
+				"spriterandomscale"	"0.25"
+				"amount" 			".03"
+				"detailOrientation" "2"
+				"maxangle"	"08"
+			}
+			
+			Model2J // tall weed cluster
+			{
+				"sprite"	"640 512 128 256 1024"
+				"spritesize"	"0.5 0.01 18 36"
+				"spriterandomscale"	".20"
+				"amount"	".02"
+				"detailorientation"	"2"
+			}
+			
+			Model2K // thin tall leafy weed
+			{
+				"sprite"	"768 256 256 256 1024"
+				"spritesize"	"0.5 0.01 20 44"
+				"spriterandomscale"	".25"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+			Model2L // dryshrub (crabgrass)
+			{
+				"sprite"	"256 640 128 128 1024"
+				"spritesize"	"0.5 0.05 32 32"
+				"spriterandomscale"	".22"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+			Model2M // weedy cluster
+			{
+				"sprite"	"512 768 256 256 1024"
+				"spritesize"	"0.5 0.01 28 28"
+				"spriterandomscale"	".33"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+			Model2N // thin tall weed
+			{
+				"sprite"	"512 512 128 256 1024"
+				"spritesize"	"0.5 0.01 10 24"
+				"spriterandomscale"	".3"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+		}
+		
+	}
+	
+	iraq_skybox //detailsprites.vtf
+	{
+		"density" "250"
+		
+		Group01
+		{
+			"alpha"	"1.0" //sand 
+				
+			Model1A // desert scrub sm
+			{
+				"sprite"	"256 768 128 64 1024"
+				"spritesize"	"0.5 0.01 18 9"
+				"spriterandomscale"	".33"
+				"amount"	".2"
+				"detailorientation"	"2"
+			}
+			
+			Model1B // desert scrub lg
+			{
+				"sprite"	"0 768 256 160 1024"
+				"spritesize"	"0.5 0.01 29 18"
+				"spriterandomscale"	".22"
+				"amount"	".1"
+				"detailorientation"	"2"
+			}
+			
+			Model1C // tall weed cluster
+			{
+				"sprite"	"640 512 128 256 1024"
+				"spritesize"	"0.5 0.01 18 36"
+				"spriterandomscale"	".20"
+				"amount"	".01"
+				"detailorientation"	"2"
+				"maxangle"	"17"
+			}
+						
+			Model1E // lg yellow tipped bush
+			{
+				"sprite"			"512 0 512 256 1024"
+				"spritesize"		"0.5 0.01 60 44"
+				"spriterandomscale"	"0.25"
+				"amount" 			".01"
+				"detailOrientation" "2"
+				"maxangle"	"05"
+			}
+
+		}
+		
+		Group02
+		{
+			"alpha"	"0.0"	//grass
+						
+			Model2B // tan wildgrass tuft
+			{
+				"sprite"		"0 256 256 256 1024"
+				"spritesize"	"0.5 0.01 24 24"
+				"spriterandomscale"	".3"
+				"amount"	".1"
+				"detailorientation"	"2"
+			}
+			
+			Model2C // tan grass tuft
+			{
+				"sprite"	"768 512 256 256 1024"
+				"spritesize"	"0.5 0.01 24 24"
+				"spriterandomscale"	".20"
+				"amount"	".18"
+				"detailorientation"	"2"
+			}
+			
+			Model2D // sandgrass small
+			{
+				"sprite"	"0 512 128 128 1024"
+				"spritesize"	"0.5 0.1 18 18"
+				"spriterandomscale"	".25"
+				"amount"	".18"
+				"detailorientation"	"2"
+			}
+			
+			Model2E // sandgrass large
+			{
+				"sprite"	"128 512 128 128 1024"
+				"spritesize"	"0.5 0.1 20 20"
+				"spriterandomscale"	".20"
+				"amount"	".16"
+				"detailorientation"	"2"
+			}
+			
+			Model2F // sandgrass med
+			{
+				"sprite"	"0 640 128 128 1024"
+				"spritesize"	"0.5 0.05 19 19"
+				"spriterandomscale"	".20"
+				"amount"	".18"
+				"detailorientation"	"2"
+			}
+			
+			Model2G // sandgrass alt
+			{
+				"sprite"	"256 512 128 128 1024"
+				"spritesize"	"0.5 0.05 19 19"
+				"spriterandomscale"	".20"
+				"amount"	".1"
+				"detailorientation"	"2"
+			}	
+			
+			Model2H // lg blue tipped bush
+			{
+				"sprite" "0 0 512 256 1024"
+				"spritesize" "0.5 0.01 64 48"
+				"spriterandomscale" "0.25"
+				"amount" ".01"
+				"detailOrientation" "2"
+				"maxangle" "07"
+			}
+			
+			Model2I // lg yellow tipped bush
+			{
+				"sprite"			"512 0 512 256 1024"
+				"spritesize"		"0.5 0.01 60 44"
+				"spriterandomscale"	"0.25"
+				"amount" 			".03"
+				"detailOrientation" "2"
+				"maxangle"	"08"
+			}
+			
+			Model2J // tall weed cluster
+			{
+				"sprite"	"640 512 128 256 1024"
+				"spritesize"	"0.5 0.01 18 36"
+				"spriterandomscale"	".20"
+				"amount"	".02"
+				"detailorientation"	"2"
+			}
+			
+			Model2K // thin tall leafy weed
+			{
+				"sprite"	"768 256 256 256 1024"
+				"spritesize"	"0.5 0.01 20 44"
+				"spriterandomscale"	".25"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+			Model2L // dryshrub (crabgrass)
+			{
+				"sprite"	"256 640 128 128 1024"
+				"spritesize"	"0.5 0.05 32 32"
+				"spriterandomscale"	".22"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+			Model2M // weedy cluster
+			{
+				"sprite"	"512 768 256 256 1024"
+				"spritesize"	"0.5 0.01 28 28"
+				"spriterandomscale"	".33"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+			Model2N // thin tall weed
+			{
+				"sprite"	"512 512 128 256 1024"
+				"spritesize"	"0.5 0.01 10 24"
+				"spriterandomscale"	".3"
+				"amount"	".01"
+				"detailorientation"	"2"
+			}
+			
+		}
+		
+	}
+	
+	//additional entries go here!
+	
+	}

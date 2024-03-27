@@ -1,0 +1,521 @@
+//----------------------------------------------------------------------------
+// botprofile.db
+//
+// This database defines bot "personalities". 
+// Feel free to edit it and define your own bots.
+//
+//----------------------------------------------------------------------------
+
+//
+// All profiles begin with this data and overwrite their own
+//
+Default
+	Skill = 50
+	Aggression = 50
+	ReactionTime = 0.4
+	AttackDelay = 0.5
+	Teamwork = 75
+	WeaponPreference = none
+	Difficulty = NORMAL
+	VoicePitch = 100
+End
+
+//----------------------------------------------------------------------------
+
+//
+// These templates inherit from Default and override with their values
+// The name of the template defines a type that is used by individual bot profiles
+//
+
+// weapon preference templates
+Template Rifle
+	WeaponPreference = akm
+	WeaponPreference = m16
+End
+
+Template Sniper
+	WeaponPreference = mosin
+	WeaponPreference = m40a1
+End
+
+Template Power
+	WeaponPreference = sks
+	WeaponPreference = m14
+End
+
+Template Shotgun
+	WeaponPreference = toz
+	WeaponPreference = m590
+End
+
+Template Spray
+	WeaponPreference = mp40
+	WeaponPreference = mp5
+End
+
+// skill templates
+Template Elite
+	Skill = 80
+	Aggression = 100
+	ReactionTime = 0.25
+	AttackDelay = 0.2
+	Difficulty = EXPERT
+End
+
+Template Expert
+	Skill = 75
+	Aggression = 90
+	ReactionTime = 0.3
+	AttackDelay = 0.3
+	Difficulty = EXPERT
+End
+
+Template VeryHard
+	Skill = 60
+	Aggression = 80
+	ReactionTime = 0.35
+	AttackDelay = 0.4
+	Difficulty = HARD+EXPERT
+End
+
+Template Hard
+	Skill = 50
+	Aggression = 75
+	ReactionTime = 0.4
+	AttackDelay = 0.55
+	Difficulty = HARD
+End
+
+Template Tough
+	Skill = 45
+	Aggression = 70
+	ReactionTime = 0.45
+	AttackDelay = 0.65
+	Difficulty = NORMAL+HARD
+End
+
+Template Normal
+	Skill = 35
+	Aggression = 65
+	ReactionTime = 0.5
+	AttackDelay = 0.75
+	Difficulty = NORMAL
+End
+
+Template Fair
+	Skill = 25
+	Aggression = 50
+	ReactionTime = 0.55
+	AttackDelay = 0.85
+	Difficulty = EASY+NORMAL 
+End
+
+Template Easy
+	Skill = 15
+	Aggression = 25
+	ReactionTime = 0.8
+	AttackDelay = 0.9
+	Difficulty = EASY
+End
+
+// ----------------------------------------
+
+Elite+Rifle Andrew
+	VoicePitch = 85
+End
+
+Elite+Shotgun Jeremy
+End
+
+Elite+Sniper James
+End
+
+Elite Spence
+End
+
+Elite Pokey
+End
+
+Elite Nik
+End
+
+Elite Matthias
+End
+
+Elite Chase
+End
+
+Elite Stock
+End
+
+Elite Fagan
+End
+
+Elite Jon
+End
+
+Elite Rick
+End
+
+Elite Tom
+End
+
+Elite Adam
+End
+
+Elite Lasse
+End
+
+Elite Thiago
+End
+
+// ----------------------------------------
+
+Expert Keith
+End
+
+Expert Chris
+End
+
+Expert Joey
+End
+
+Expert Jethro
+End
+
+Expert Xon
+End
+
+Expert Jurryt
+End
+
+Expert Oliver
+End
+
+Expert Kurt
+End
+
+Expert Dave
+End
+
+Expert William
+End
+
+Expert Shawn
+End
+
+Expert Alex
+End
+
+Expert Guillaume
+End
+
+Expert Jens
+End
+
+Expert Simon
+End
+
+Expert Jay
+End
+
+// ----------------------------------------
+
+VeryHard Ben
+End
+
+VeryHard Lloyd
+End
+
+VeryHard Richard
+End
+
+VeryHard Robert
+End
+
+VeryHard Brian
+End
+
+VeryHard Gustav
+End
+
+VeryHard Jeroen
+End
+
+VeryHard Bram
+End
+
+VeryHard Dennis
+End
+
+VeryHard Tobias
+End
+
+VeryHard Reyneri
+End
+
+VeryHard Teddy
+End
+
+VeryHard Mike
+End
+
+VeryHard Gabe
+End
+
+VeryHard Rich
+End
+
+VeryHard Arnold
+End
+
+// ----------------------------------------
+
+Hard+Rifle Connor
+End
+
+Hard+Rifle Darwin
+End
+
+Hard+Rifle Dan
+End
+
+Hard+Rifle Derek
+End
+
+Hard+Power Don
+End
+
+Hard+Power Eric
+End
+
+Hard+Power Erik
+End
+
+Hard+Power Finn
+End
+
+Hard+Shotgun Jeff
+End
+
+Hard+Shotgun Kevin
+End
+
+Hard+Shotgun Reed
+End
+
+Hard+Shotgun Travis
+End
+
+Hard+Spray Brad
+End
+
+Hard+Spray Troy
+End
+
+Hard+Spray Wade
+End
+
+Hard+Spray Wayne
+End
+
+// ----------------------------------------
+
+Tough+Rifle Xander
+End
+
+Tough+Rifle Xavier
+End
+
+Tough+Rifle Aric
+End
+
+Tough+Rifle Andy
+End
+
+Tough+Power Stephen
+End
+
+Tough+Power Colin
+End
+
+Tough+Power Liam
+End
+
+Tough+Power Doug
+End
+
+Tough+Shotgun Gary
+End
+
+Tough+Shotgun Grant
+End
+
+Tough+Shotgun Greg
+End
+
+Tough+Shotgun Ian
+End
+
+Tough+Spray Jerry
+End
+
+Tough+Spray Rod
+End
+
+Tough+Spray Mark
+End
+
+Tough+Spray Matt
+End
+
+// ----------------------------------------
+
+Normal+Rifle Geoff
+End
+
+Normal+Rifle Nate
+End
+
+Normal+Rifle Paul
+End
+
+Normal+Rifle Scott
+End
+
+Normal+Power Steve
+End
+
+Normal+Power Ken
+End
+
+Normal+Power Yahn
+End
+
+Normal+Power Alfred
+End
+
+Normal+Shotgun Bill
+End
+
+Normal+Shotgun Brandon
+End
+
+Normal+Shotgun Calvin
+End
+
+Normal+Shotgun Dean
+End
+
+Normal+Spray Dustin
+End
+
+Normal+Spray Ethan
+End
+
+Normal+Spray Harold
+End
+
+Normal+Spray Henry
+End
+
+// ----------------------------------------
+
+Fair+Rifle Irving
+End
+
+Fair+Rifle Jason
+End
+
+Fair+Rifle Josh
+End
+
+Fair+Rifle Martin
+End
+
+Fair+Power Nick
+End
+
+Fair+Power Norm
+End
+
+Fair+Power Orin
+End
+
+Fair+Power Pat
+End
+
+Fair+Shotgun Perry
+End
+
+Fair+Shotgun Ron
+End
+
+Fair+Shotgun Toby
+End
+
+Fair+Shotgun Tim
+End
+
+Fair+Spray Will
+End
+
+Fair+Spray Wyatt
+End
+
+Fair+Spray Albert
+End
+
+Fair+Spray Allen
+End
+
+// ----------------------------------------
+
+Easy+Rifle Bert
+End
+
+Easy+Rifle Bob
+End
+
+Easy+Rifle Cecil
+End
+
+Easy+Rifle Clarence
+End
+
+Easy+Power Elliot
+End
+
+Easy+Power Elmer
+End
+
+Easy+Power Ernie
+End
+
+Easy+Power Eugene
+End
+
+Easy+Shotgun Fergus
+End
+
+Easy+Shotgun Ferris
+End
+
+Easy+Shotgun Frank
+End
+
+Easy+Shotgun Frasier
+End
+
+Easy+Spray Fred
+End
+
+Easy+Spray George
+End
+
+Easy+Spray Graham
+End
+
+Easy+Spray Harvey
+End
+

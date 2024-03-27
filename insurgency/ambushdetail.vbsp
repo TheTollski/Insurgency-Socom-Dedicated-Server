@@ -1,0 +1,86 @@
+detail
+{
+	karkar01
+	{
+		"density" "50.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+			
+			Model1 //thick grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"0 256 256 256 1024"
+				"spritesize"	"0.5 0.0 25 25"
+				"spriterandomscale"	"0.4"
+				"amount" "0.25"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.035"
+				"sway"	"0.5"
+			}
+
+
+		}
+                Group2
+		{
+			"alpha" "0.0"
+		}
+		
+	}
+
+	karkar02
+	{
+		"density" "300.0"
+
+		Group1
+		{
+			"alpha" "0.0"
+			Model1 //main grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"768 512 256 256 1024"
+				"spritesize"	"0.5 0.0 40 40"
+				"spriterandomscale"	"0.2"
+				"amount" "0.5"
+				"detailOrientation" "0"
+				"shape_angle"	"25" 
+				"shape_size"	"0.025" 
+				"sway"	"0.5"
+			}
+			
+			Model2 //thick grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"0 256 256 256 1024"
+				"spritesize"	"0.5 0.0 25 25"
+				"spriterandomscale"	"0.4"
+				"amount" "0.25"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.035"
+				"sway"	"0.5"
+                        }
+                        Model3 //small grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"768 512 256 256 1024"
+				"spritesize"	"0.5 0.0 15 15"
+				"spriterandomscale"	"0.2"
+				"amount" "0.25"
+				"detailOrientation" "0"
+				"shape_angle"	"25" 
+				"shape_size"	"0.025" 
+				"sway"	"0.5"
+			     }
+			}
+
+	        Group2
+		{
+			"alpha" "1.0"
+		}
+	}
+}
+
+

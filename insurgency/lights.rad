@@ -1,0 +1,154 @@
+maps/lights/light_white01  244 228 196 37
+maps/lights/light_white02  244 228 196 25
+maps/lights/light_white03  171 206 220 22
+
+maps/lights/TestLight		255 255 255 255
+
+forcetextureshadow models/static_fittings/ir_school_staircase_cage.mdl
+forcetextureshadow models/static_fortifications/chain_link_gate.mdl
+forcetextureshadow models/static_fortifications/chain_link_gate_b.mdl
+forcetextureshadow models/static_fortifications/chain_link_long_a.mdl
+forcetextureshadow models/static_fortifications/chain_link_long_a_barb.mdl
+forcetextureshadow models/static_fortifications/chain_link_long_b.mdl
+forcetextureshadow models/static_fortifications/chain_link_long_b_barb.mdl
+forcetextureshadow models/static_fortifications/chain_link_short_a.mdl
+forcetextureshadow models/static_fortifications/chain_link_short_a_barb.mdl
+forcetextureshadow models/static_fortifications/chain_link_short_b.mdl
+forcetextureshadow models/static_fortifications/chain_link_short_b_barb.mdl
+forcetextureshadow models/static_fittings/doorframe_commercial01a.mdl
+
+
+forcetextureshadow models/foliage/ch_tree_01a.mdl
+forcetextureshadow models/foliage/ch_tree_01b.mdl
+forcetextureshadow models/foliage/ch_tree_01c.mdl
+forcetextureshadow models/foliage/ch_tree_01d.mdl
+forcetextureshadow models/foliage/ch_tree_03a.mdl
+forcetextureshadow models/foliage/ch_tree_03b.mdl
+forcetextureshadow models/foliage/ch_tree_03c.mdl
+
+forcetextureshadow models/foliage/date_palm_thick_01.mdl
+forcetextureshadow models/foliage/date_palm_thick_01l.mdl
+forcetextureshadow models/foliage/date_palm_thick_01s.mdl
+
+forcetextureshadow models/foliage/date_palm_short_01.mdl
+forcetextureshadow models/foliage/date_palm_short_01l.mdl
+forcetextureshadow models/foliage/date_palm_short_01s.mdl
+
+forcetextureshadow models/foliage/date_palm_tall_01.mdl
+forcetextureshadow models/foliage/date_palm_tall_01_nofruit.mdl
+forcetextureshadow models/foliage/date_palm_tall_01l.mdl
+forcetextureshadow models/foliage/date_palm_tall_01l_nofruit.mdl
+forcetextureshadow models/foliage/date_palm_tall_01s.mdl
+forcetextureshadow models/foliage/date_palm_tall_01s_nofruit.mdl
+
+forcetextureshadow models/foliage/date_palm_tall_02.mdl
+forcetextureshadow models/foliage/date_palm_tall_02_nofruit.mdl
+forcetextureshadow models/foliage/date_palm_tall_02l.mdl
+forcetextureshadow models/foliage/date_palm_tall_02l_nofruit.mdl
+forcetextureshadow models/foliage/date_palm_tall_02s.mdl
+forcetextureshadow models/foliage/date_palm_tall_02s_nofruit.mdl
+
+forcetextureshadow models/foliage/reeds_01.mdl
+forcetextureshadow models/foliage/reeds_02.mdl
+forcetextureshadow models/foliage/afghan_bush_leaves_a_single
+forcetextureshadow models/foliage/afghan_bush_leaves_b.mdl
+forcetextureshadow models/foliage/afghan_bush_leaves_c.mdl
+forcetextureshadow models/foliage/afghan_grass_bunch_a.mdl
+forcetextureshadow models/foliage/afghan_grass_bunch_a.mdl
+forcetextureshadow models/foliage/bush100large.mdl
+forcetextureshadow models/foliage/bush100medium.mdl
+
+forcetextureshadow models/foliage/tree300medium.mdl
+forcetextureshadow models/foliage/tree300small.mdl
+
+forcetextureshadow models/foliage/iraq/iraqtree01_peri.mdl
+ 
+forcetextureshadow models/foliage/vines01a_peri_back.mdl
+
+forcetextureshadow models/props_foliage/onyxtree/olea_europaea/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/olea_europaea/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/olea_europaea/bush1.mdl
+forcetextureshadow models/props_foliage/onyxtree/olea_europaea/bush2.mdl
+forcetextureshadow models/props_foliage/onyxtree/ulnus_americana/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/ulnus_americana/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/ulnus_americana/bush1.mdl
+forcetextureshadow models/props_foliage/onyxtree/ulnus_americana/bush2.mdl
+forcetextureshadow models/props_foliage/onyxtree/tilia_cordata/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/tilia_cordata/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/tilia_cordata/bush1.mdl 
+forcetextureshadow models/props_foliage/onyxtree/salix_babylonica/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/salix_babylonica/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/quercus_rubra/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/quercus_rubra/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/populus_tremoloides/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/populus_tremoloides/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/populus_tremoloides/tree3.mdl
+forcetextureshadow models/props_foliage/onyxtree/populus_tremoloides/bush1.mdl
+forcetextureshadow models/props_foliage/onyxtree/populus_tremoloides/bush2.mdl
+forcetextureshadow models/props_foliage/onyxtree/ethrinia_indica/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/ethrinia_indica/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/fagus_grandifolia/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/fagus_grandifolia/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/maytenus_boaria/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/maytenus_boaria/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/crataegus_mollis/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/crataegus_mollis/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/celtis_occidentalis/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/celtis_occidentalis/tree2.mdl
+
+
+forcetextureshadow models/props_foliage/trees/tropical/banana.mdl
+forcetextureshadow models/props_foliage/trees/tropical/banana2.mdl
+forcetextureshadow models/props_foliage/trees/tropical/banana3.mdl
+forcetextureshadow models/props_foliage/trees/tropical/banana4.mdl
+forcetextureshadow models/props_foliage/onyxtree/platanus/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/platanus/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/populus_alba/bush1.mdl
+forcetextureshadow models/props_foliage/onyxtree/populus_alba/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/populus_alba/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/populus_alba/tree3.mdl
+forcetextureshadow models/props_foliage/onyxtree/pyrus_communis/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/pyrus_communis/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/aesculus/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/aesculus/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/betula_papyrifea/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/betula_papyrifea/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/acer_saccharum/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/acer_saccharum/tree2.mdl
+forcetextureshadow models/props_foliage/onyxtree/acer_saccharum/tree3.mdl
+forcetextureshadow models/props_foliage/onyxtree/acer_saccharum/tree4.mdl
+forcetextureshadow models/props_foliage/onyxtree/magnolia_loebneri/tree1.mdl
+forcetextureshadow models/props_foliage/onyxtree/magnolia_loebneri/tree2.mdl
+forcetextureshadow models/props_foliage/trees/tropical/coconut_palm1.mdl
+forcetextureshadow models/props_foliage/trees/tropical/coconut_palm2.mdl
+
+forcetextureshadow models/foliage/pine_2m.mdl
+forcetextureshadow models/foliage/pine_3m.mdl
+forcetextureshadow models/foliage/pine_7m.mdl
+forcetextureshadow models/foliage/pine_9m.mdl
+forcetextureshadow models/foliage/pine_15m.mdl
+forcetextureshadow models/foliage/pine_18m.mdl
+forcetextureshadow models/foliage/pine_20m.mdl
+
+
+forcetextureshadow models/props/treeline01.mdl
+forcetextureshadow models/props/treeline02.mdl
+forcetextureshadow models/props/treeline03.mdl
+
+forcetextureshadow models/foliage/buh_grass_01a.mdl
+forcetextureshadow models/foliage/buh_grass_bunch_01.mdl
+
+forcetextureshadow models/3d_skybox/3dsky_tree1.mdl
+forcetextureshadow models/3d_skybox/3dsky_tree2_01.mdl
+forcetextureshadow models/3d_skybox/3dsky_reeds_02.mdl
+forcetextureshadow models/3d_skybox/3dsky_tree2_01.mdl
+forcetextureshadow models/3d_skybox/3dsky_tree1.mdl
+forcetextureshadow models/3d_skybox/3dsky_tree300.mdl
+forcetextureshadow models/3d_skybox/3dsky_pine_7m.mdl
+forcetextureshadow models/3d_skybox/3dsky_pine_9m.mdl
+
+forcetextureshadow models/static_afghan/prop_foliage_mj_large.mdl
+forcetextureshadow models/static_afghan/prop_foliage_mj_group.mdl
+
+
+

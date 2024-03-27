@@ -1,0 +1,9 @@
+
+// if you update this file, also update //depot/nwi/scripts/testserverlist.txt
+
+"testserverlist"
+{
+	//"Global Game Servers - Texas" "216.152.132.126"
+	//"Global Game Servers - California" "173.58.215.32"
+	"NWI - Denver" "98.245.73.18"
+}

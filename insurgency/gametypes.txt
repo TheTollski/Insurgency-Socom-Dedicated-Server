@@ -1,0 +1,21 @@
+"gametypes.txt"
+{
+	"gameTypes"
+	{
+		"elimination"
+		{
+			"displayname"	"#ins_gt_elimination"
+			"description"	"#ins_gt_elimination_desc"
+
+			"gameModes"
+			{
+				"casual"
+				{
+					"displayname"	"#ins_gm_casual"
+					"description"	"#ins_gm_casual_desc"
+					"config"		"gm_elimination_casual.cfg"
+				}
+			}
+		}
+	}
+}

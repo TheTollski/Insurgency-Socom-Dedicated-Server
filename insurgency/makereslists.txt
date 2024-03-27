@@ -1,0 +1,23 @@
+"makereslists"
+{
+	// These get reapplied each iteration
+	"basecommandline"		"-w 640 -h 480 -sw -makereslists -usereslistfile maplist.txt -console -condebug -nocrashdialog +mat_picmip 2 +r_lod 3"
+	"maplist"			"maplist.txt"
+	"finaldir"			"reslists"  // Where we place the "merged" final results
+	"workdir"			"reslists_temp" // Root for each "subdir" below (e.g.:  u:\main\game\ep2\reslists_temp\nohdr\*.* )
+	
+	// DXLevel 90
+	"0"
+	{
+		"subdir"		"dx90"       
+		"addcommands"		"-dxlevel 90"
+	}
+	
+	// DXlevel 95, HDR
+	"1"
+	{
+		"subdir"		"dx95hdr"       
+		"addcommands"		"-dxlevel 95"  
+	}
+		
+}
