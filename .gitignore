@@ -26,3 +26,5 @@ vstdlib_s64.dll
 *.log
 *.cache
 steamapps/workshop/appworkshop_222880.acf
+insurgency/addons/
+insurgency/cfg/sourcemod/

@@ -1,4 +1,5 @@
-abandoned firefight
+abandoned_v2 firefight
+abandoned_v2 occupy
 blizzard_v3 firefight
 crossroads_v5 firefight
 deathtrap_v1 firefight
