@@ -1,7 +1,7 @@
 # Required Server Settings
 The startup command for the server must include:
 	- `-workshop`
-	- `+sv_pure 0`.
+	- `+sv_pure 0`
 
 The server's `server.cfg` must enable thirdperson:
 	- `sv_thirdperson 1`
