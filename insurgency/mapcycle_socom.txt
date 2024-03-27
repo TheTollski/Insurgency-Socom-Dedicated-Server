@@ -10,9 +10,8 @@ crossroads_v5 infiltrate
 crossroads_v5 occupy
 deathtrap_v1 firefight
 deathtrap_v1 occupy
-//desertglory_demolition_v1 skirmish
-//desertglory_v2 firefight
-//desertglory_v2 occupy
+desertglory firefight
+desertglory occupy
 fishhook_v1 firefight
 fishhook_v1 occupy
 frostfire_demolition_v1 skirmish

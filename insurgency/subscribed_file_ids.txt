@@ -6,8 +6,7 @@
 2804721789 // crossroads_demolition_v2
 2784615293 // crossroads_v5
 2784645020 // deathtrap_v1
-//2804722349 // desertglory_demolition_v1
-2784649011 // desertglory_v2
+2856616149 // desertglory
 2780194883 // fishhook_v1
 2822781293 // frostfire_demolition_v1
 2784653093 // frostfire_v6
