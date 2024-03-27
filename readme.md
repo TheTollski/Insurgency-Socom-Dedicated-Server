@@ -19,4 +19,9 @@ Add SourceMod plugins:
 	How to add most SourceMod plugins: Put the plugin's ".smx" file into the "addons/sourcemod/plugins" folder.
 	Recommended plugins:
 		LastX: Lists last X players who disconnected from the server. https://forums.alliedmods.net/showthread.php?t=58559
+			Install: Put "lastx.smx" into "addons/sourcemod/plugins".
+			Configure: Set "sm_lastxhistory". Not sure where to set it permanently.
+			Use: Call "lastx".
 		Advertisements 0.7: Recurring messages to players. https://forums.alliedmods.net/showthread.php?t=221272
+			Install: Put "advertisements.smx" into "addons/sourcemod/plugins" and "advertisements.txt" into "addons/sourcemod/configs".
+			Configure: Set advertisement text in "addons/sourcemod/configs/advertisements.txt". Set variables ("sm_advertisements_enabled", "sm_advertisements_file", "sm_advertisements_interval") in "cfg/sourcemod/advertisements.cfg".
