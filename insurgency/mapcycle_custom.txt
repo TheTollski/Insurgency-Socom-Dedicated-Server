@@ -32,19 +32,24 @@ theruins_demolition_v2 skirmish
 vigilance_v1 firefight
 vigilance_v1 occupy
 
+// Other Workshop Maps
 dust2_b4 occupy
 estates_b4 firefight
 estates_b4 occupy
 panama_canal_b2 occupy
-panama_canal_b2 push
 showdown firefight
 showdown occupy
 
-//buhriz push
+// Insurgency Maps
+buhriz push
+drycanal push
+embassy push
+ministry firefight
+sinjar push
+tell push
+
 //contact push
 //district push
-//drycanal push
-//embassy push
 //heights push
 //kandagal push
 //market push
@@ -52,7 +57,5 @@ showdown occupy
 //peak push
 //revolt push
 //siege push
-//sinjar push
 //station push
-//tell push
 //verticality push
