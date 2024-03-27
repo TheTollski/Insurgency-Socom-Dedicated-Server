@@ -1,7 +1,0 @@
-// PatchVersion is used for that to ensure we don't get cross connecting to different releases.
-// Only bump this if you know an incompatible change has happened to the network protocol in
-// game and old demos will not work.
-PatchVersion=2.4.2.4
-ProductName=insurgency
-appID=222880
-ServerVersion=65546
