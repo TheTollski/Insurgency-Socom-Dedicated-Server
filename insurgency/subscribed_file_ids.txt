@@ -2,9 +2,10 @@
 
 2782282184 // abandoned_v2
 2784589282 // blizzard_v3
-2801517972 // crossroads_demolition_v1
+2804721789 // crossroads_demolition_v2
 2784615293 // crossroads_v5
 2784645020 // deathtrap_v1
+2804722349 // desertglory_demolition_v1
 2784649011 // desertglory_v2
 2780194883 // fishhook_v1
 2784653093 // frostfire_v6
@@ -12,6 +13,7 @@
 2785163727 // requiem_v2
 2785221531 // sandstorm
 2786213520 // theruins
+2804722888 // theruins_demolition_v1
 2786218293 // vigilance_v1
 
 381256752 // dust2_b4

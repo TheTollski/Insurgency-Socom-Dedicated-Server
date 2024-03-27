@@ -3,12 +3,13 @@ abandoned_v2 occupy
 blizzard_v3 firefight
 blizzard_v3 infiltrate
 blizzard_v3 occupy
-crossroads_demolition_v1 skirmish
+crossroads_demolition_v2 skirmish
 crossroads_v5 firefight
 crossroads_v5 infiltrate
 crossroads_v5 occupy
 deathtrap_v1 firefight
 deathtrap_v1 occupy
+desertglory_demolition_v1 skirmish
 desertglory_v2 firefight
 desertglory_v2 occupy
 fishhook_v1 firefight
@@ -24,5 +25,6 @@ sandstorm firefight
 sandstorm occupy
 theruins firefight
 theruins occupy
+theruins_demolition_v1 skirmish
 vigilance_v1 firefight
 vigilance_v1 occupy
