@@ -1,30 +1,22 @@
 abandoned_demolition_v1 skirmish
 abandoned_v2 firefight
-abandoned_v2 occupy
 blizzard_v3 firefight
 blizzard_v3 infiltrate
-blizzard_v3 occupy
 crossroads_demolition_v2 skirmish
 crossroads_v5 firefight
 crossroads_v5 infiltrate
-crossroads_v5 occupy
 deathtrap_v1 firefight
-deathtrap_v1 occupy
 desertglory firefight
 desertglory occupy
 fishhook_v1 firefight
-fishhook_v1 occupy
 frostfire_demolition_v1 skirmish
 frostfire_v6 firefight
-frostfire_v6 occupy
 nightstalker_demolition_v1 skirmish
 nightstalker_v2 firefight
 nightstalker_v2 infiltrate
-nightstalker_v2 occupy
 requiem_v2 firefight
 requiem_v2 occupy
 sandstorm firefight
-sandstorm occupy
 theruins firefight
 theruins occupy
 theruins_demolition_v2 skirmish
@@ -32,12 +24,8 @@ vigilance_v1 firefight
 vigilance_v1 occupy
 
 // Other Workshop Maps
-dust2_b4 occupy
 estates_b4 firefight
-estates_b4 occupy
-panama_canal_b2 occupy
 showdown firefight
-showdown occupy
 
 // Insurgency Maps
 buhriz push

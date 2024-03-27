@@ -8,7 +8,7 @@ Installing Metamod and SourceMod:
 	https://wiki.alliedmods.net/Installing_SourceMod
 		1. Download SourceMod.
 		2. Extract package.
-		3. Put the "addons" (and maybe "cfg") folder(s) inside the server's "insurgency" folder.
+		3. Put the "addons" and "cfg" folders inside the server's "insurgency" folder.
 		4. Restart server.
 		5. Type "sm" into server console to verify it worked.
 		6. Move "nextmap.smx" to "disabled" folder because incompatible with Insurgency. 
