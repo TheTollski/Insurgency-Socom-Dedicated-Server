@@ -43,7 +43,7 @@ showdown occupy
 buhriz push
 contact push
 district push
-dry_canal push
+drycanal push
 embassy push
 heights push
 kandagal push
