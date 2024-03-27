@@ -1,0 +1,46 @@
+// Advertisements 0.5
+// by Tsunami
+// 
+// Types
+// -----
+// C: Center message
+// H: Hint message
+// M: Menu message
+// S: Say message
+//    - Colors:  {DEFAULT}, {TEAM}, {GREEN}, {LIGHTGREEN}
+//    - Example: {GREEN}Current {LIGHTGREEN}Map: {DEFAULT}{CURRENTMAP}
+// T: Top message
+//    - Colors:  {WHITE},  {RED},  {GREEN}, {BLUE}, {YELLOW}, {PURPLE}, {CYAN},
+//               {ORANGE}, {PINK}, {OLIVE}, {LIME}, {VIOLET}, {LIGHTBLUE}
+//    - Example: {ORANGE} www.domain.com
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+
+"Advertisements"
+{
+	"1"
+	{
+		"type"		"S"
+		"text"		"{LIGHTBLUE}Notice: {DEFAULT}Join our Discord server at {GREEN}https://discord.gg/6B4hpb6F7E {DEFAULT}to submit feedback, report issues, and get notified when people are playing."
+	}
+	"2"
+	{
+		"type"		"S"
+		"text"		"{LIGHTGREEN}Tip: {DEFAULT}If you die you can take over bots on your team by pressing the use button ('F' key by default)."
+	}
+	"3"
+	{
+		"type"		"S"
+		"text"		"{LIGHTGREEN}Tip: {DEFAULT}Enjoy the server? Add it to your favorites. You can also find the server by filtering in the server browser using the tag 'tpm'."
+	}
+	
+	"4"
+	{
+		"type"		"S"
+		"text"		"{ORANGE}Server Rule: {DEFAULT}No intentional spawn camping. Waiting at the enemy spawn and killing the enemy team when they respawn may result in a kick."
+	}
+}
