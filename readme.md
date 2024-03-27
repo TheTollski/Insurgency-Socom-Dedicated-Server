@@ -17,17 +17,19 @@ Add admins: https://wiki.alliedmods.net/Adding_Admins_(SourceMod)
 
 Add SourceMod plugins:
 	Recommended plugins:
+		Advertisements 0.7: Recurring messages to players. https://forums.alliedmods.net/showthread.php?t=221272
+			Install: Put "advertisements.smx" into "addons/sourcemod/plugins" and "advertisements.txt" into "addons/sourcemod/configs".
+			Configure: Set advertisement text in "addons/sourcemod/configs/advertisements.txt". Set variables in "cfg/sourcemod/advertisements.cfg" (file automatically created after server restarts with plugin installed).
 		AFK Manager: Kicks/Moves AFK players. https://forums.alliedmods.net/showthread.php?p=708265
 			Install: Put "afk_manager4.smx" into "addons/sourcemod/plugins" and "afk_manager.phrases.txt" into "addons/sourcemod/translations".
 			Configure: Set variables in "cfg/sourcemod/afk_manager.cfg" (file automatically created after server restarts with plugin installed).
-		Bot Balancer: Stacks bots against player until multiple people connect to server.
+		Bot Stacker: Stacks bots against players when all players are on the same team.
+			Install: Put "botstacker.smx" into "addons/sourcemod/plugins" and "botstacker.txt" into "addons/sourcemod/configs".
+			Configure: Set bot counts in "addons/sourcemod/configs/botstacker.txt". Set variables in "cfg/sourcemod/botstacker.cfg" (file automatically created after server restarts with plugin installed).
 		LastX: Lists last X players who disconnected from the server. https://forums.alliedmods.net/showthread.php?t=58559
 			Install: Put "lastx.smx" into "addons/sourcemod/plugins".
 			Configure: Set "sm_lastxhistory". Not sure where to set it permanently.
 			Use: Call "lastx".
-		Advertisements 0.7: Recurring messages to players. https://forums.alliedmods.net/showthread.php?t=221272
-			Install: Put "advertisements.smx" into "addons/sourcemod/plugins" and "advertisements.txt" into "addons/sourcemod/configs".
-			Configure: Set advertisement text in "addons/sourcemod/configs/advertisements.txt". Set variables in "cfg/sourcemod/advertisements.cfg" (file automatically created after server restarts with plugin installed).
 		Sm_Allinfo 2.1.1: Stores data of players who connect to the server. https://forums.alliedmods.net/showthread.php?t=83330?t=83330
 			Install: Put "sm_allinfo_v2.1.1.smx"  into "addons/sourcemod/plugins".
 			Use: Call "sm_allinfo <player name>".
