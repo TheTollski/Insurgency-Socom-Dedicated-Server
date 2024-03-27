@@ -1,6 +1,7 @@
 bin/
 platform/
 BattlEye/
+insurgency/custom/
 
 changelist.txt
 crash_handler
