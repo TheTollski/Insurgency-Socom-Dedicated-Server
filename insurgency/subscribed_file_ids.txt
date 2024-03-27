@@ -10,8 +10,8 @@
 2785155164 // nightstalker_v2
 2785163727 // requiem_v2
 2785221531 // sandstorm
-2779182888 // theruins
-2780473314 // vigilance_v1
+2786213520 // theruins
+2786218293 // vigilance_v1
 
 381256752 // dust2
 890747795 // showdown
