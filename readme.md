@@ -1,3 +1,5 @@
+# Recommended Insurgency Server Addons and Plugins
+
 Installing Metamod and SourceMod:
 	https://wiki.alliedmods.net/Installing_Metamod:Source
 		1. Download Metamod:Source.
@@ -36,3 +38,38 @@ Add SourceMod plugins:
 			Install: Put "sm_allinfo_v2.1.1.smx"  into "addons/sourcemod/plugins".
 			Use: Call "sm_allinfo <player name>".
 			Note: Data is stored in "addons/sourcemod/logs/allinfo_players.txt".
+
+# VPS Setup
+
+## Install Insurgency Server
+Follow the instructions here: https://linuxgsm.com/servers/insserver/
+
+This is what I ended up doing:
+1. Remote into VPS as default user.
+2. (Ubuntu >= 20.10) Execute: `sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386 steamcmd`
+3. `sudo adduser insserver`
+4. `su - insserver`
+5. `wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh insserver`
+6. `./insserver install`
+7. `./insserver start`
+
+## Setup Files
+1. SFTP into VPS using `insserver` user credentials.
+2. Upload Metamod and SourceMod files.
+	1. Upload Metamod and SourceMod packages (the `.tar.gz` files) to /home/insserver/serverfiles/insurgency.
+	2. Remote into VPS as `insserver` user.
+	3. Navigate to serverfiles/insurgency (execute `cd serverfiles/insurgency/`).
+	4. Extract Metamod and SourceMod packages (execute `tar -xf mmsource-1.11.0-git1148-linux.tar.gz` and ` tar -xf sourcemod-1.11.0-git6911-linux.tar.gz`).
+  5. You can delete the Metamod and SourceMod packages.
+3. Upload additional configuration files.
+4. Modify startup script by editing `/home/insserver/lgsm/config-lgsm/insserver/common.cfg`.
+  1. Add: `defaultmap="desert_glory firefight"`
+	2. Add: `maxplayers="16"`
+	3. Add: `startparameters="-game insurgency -strictportbind -ip ${ip} -port ${port} +clientport ${clientport} +tv_port ${sourcetvport} -tickrate ${tickrate} +sv_setsteamaccount ${gslt} +map ${defaultmap} -maxplayers ${maxplayers} -workshop -norestart +sv_pure 0"`
+
+## Restart Insurgency Server
+1. Remote into VPS as `insserver` user.
+2. `./insserver restart`
+
+## TODO: Start Insurgency Server on Boot
+## TODO: Restart Insurgency Server Every Night

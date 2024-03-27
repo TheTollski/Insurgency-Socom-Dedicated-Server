@@ -25,7 +25,7 @@
 	"1"
 	{
 		"type"		"S"
-		"text"		"{LIGHTBLUE}Notice: {DEFAULT}Join our Discord server at {GREEN}https://discord.gg/6B4hpb6F7E {DEFAULT}to submit feedback, report issues, and get notified when people are playing."
+		"text"		"{LIGHTBLUE}Notice: {DEFAULT}Join our Discord server at {GREEN}https://discord.gg/DXqausVZv9 {DEFAULT}"
 	}
 	"2"
 	{
@@ -35,24 +35,19 @@
 	"3"
 	{
 		"type"		"S"
-		"text"		"{LIGHTBLUE}Notice: {DEFAULT}Join us during our weekly community night each {BLUE}Saturday starting at 10pm Eastern (7pm Pacific)."
+		"text"		"{LIGHTGREEN}Tip: {DEFAULT}Enjoy the server? Add it to your favorites. You can also find others mod servers by filtering in the server browser using the tag 'revolution'."
 	}
 	"4"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}Tip: {DEFAULT}Enjoy the server? Add it to your favorites. You can also find the server by filtering in the server browser using the tag 'tpm'."
+		"text"		"{ORANGE}Server Rule: {DEFAULT}No intentional spawn camping. Waiting at the enemy spawn and killing the enemy team when they respawn may result in a kick."
 	}
 	"5"
 	{
 		"type"		"S"
-		"text"		"{ORANGE}Server Rule: {DEFAULT}No intentional spawn camping. Waiting at the enemy spawn and killing the enemy team when they respawn may result in a kick."
+		"text"		"{LIGHTGREEN}Tip: {DEFAULT}If you have any technical issues then message us on Discord: https://discord.gg/DXqausVZv9"
 	}
 	"6"
-	{
-		"type"		"S"
-		"text"		"{LIGHTGREEN}Tip: {DEFAULT}If you can't see your crosshairs or if players are invisible then message us on our Discord server (https://discord.gg/6B4hpb6F7E) and we can help you."
-	}
-	"7"
 	{
 		"type"		"S"
 		"text"		"{LIGHTGREEN}Tip: {DEFAULT}On demolition maps you can plant and disarm bombs by holding the use button ('F' key by default)."
