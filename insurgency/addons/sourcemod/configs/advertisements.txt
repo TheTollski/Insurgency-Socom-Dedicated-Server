@@ -35,10 +35,15 @@
 	"3"
 	{
 		"type"		"S"
+		"text"		"{LIGHTBLUE}Notice: {DEFAULT}Join us during our weekly community night each {BLUE}Saturday starting at 10pm Eastern / 7pm Pacific."
+	}
+	"4"
+	{
+		"type"		"S"
 		"text"		"{LIGHTGREEN}Tip: {DEFAULT}Enjoy the server? Add it to your favorites. You can also find the server by filtering in the server browser using the tag 'tpm'."
 	}
 	
-	"4"
+	"5"
 	{
 		"type"		"S"
 		"text"		"{ORANGE}Server Rule: {DEFAULT}No intentional spawn camping. Waiting at the enemy spawn and killing the enemy team when they respawn may result in a kick."

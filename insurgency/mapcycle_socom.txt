@@ -3,6 +3,7 @@ abandoned_v2 occupy
 blizzard_v3 firefight
 blizzard_v3 infiltrate
 blizzard_v3 occupy
+crossroads_demolition_v1 skirmish
 crossroads_v5 firefight
 crossroads_v5 infiltrate
 crossroads_v5 occupy
