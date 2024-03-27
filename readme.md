@@ -20,6 +20,7 @@ Add SourceMod plugins:
 		AFK Manager: Kicks/Moves AFK players. https://forums.alliedmods.net/showthread.php?p=708265
 			Install: Put "afk_manager4.smx" into "addons/sourcemod/plugins" and "afk_manager.phrases.txt" into "addons/sourcemod/translations".
 			Configure: Set variables in "cfg/sourcemod/afk_manager.cfg" (file automatically created after server restarts with plugin installed).
+		Bot Balancer: Stacks bots against player until multiple people connect to server.
 		LastX: Lists last X players who disconnected from the server. https://forums.alliedmods.net/showthread.php?t=58559
 			Install: Put "lastx.smx" into "addons/sourcemod/plugins".
 			Configure: Set "sm_lastxhistory". Not sure where to set it permanently.
