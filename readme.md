@@ -1,5 +1,12 @@
-# Required Settings
-The startup command for the server must include `-workshop` and `+sv_pure 0`.
+# Required Server Settings
+The startup command for the server must include:
+	- `-workshop`
+	- `+sv_pure 0`.
+
+The server's `server.cfg` must enable thirdperson:
+	- `sv_thirdperson 1`
+	- `sv_thirdperson_dist 100`
+	- `sv_thirdperson_aimdist 1000`
 
 # Recommended Insurgency Server Addons and Plugins
 
@@ -58,20 +65,24 @@ This is what I ended up doing:
 ## Setup Files
 1. SFTP into VPS using `insserver` user credentials.
 2. Upload Metamod and SourceMod files.
-	1. Upload Metamod and SourceMod packages (the `.tar.gz` files) to /home/insserver/serverfiles/insurgency.
-	2. Remote into VPS as `insserver` user.
-	3. Navigate to serverfiles/insurgency (execute `cd serverfiles/insurgency/`).
-	4. Extract Metamod and SourceMod packages (execute `tar -xf mmsource-1.11.0-git1148-linux.tar.gz` and ` tar -xf sourcemod-1.11.0-git6911-linux.tar.gz`).
+  1. Upload Metamod and SourceMod packages (the `.tar.gz` files) to /home/insserver/serverfiles/insurgency.
+  2. Remote into VPS as `insserver` user.
+  3. Navigate to serverfiles/insurgency (execute `cd serverfiles/insurgency/`).
+  4. Extract Metamod and SourceMod packages (execute `tar -xf mmsource-1.11.0-git1148-linux.tar.gz` and ` tar -xf sourcemod-1.11.0-git6911-linux.tar.gz`).
   5. You can delete the Metamod and SourceMod packages.
 3. Upload additional configuration files.
 4. Modify startup script by editing `/home/insserver/lgsm/config-lgsm/insserver/common.cfg`.
   1. Add: `defaultmap="desert_glory firefight"`
-	2. Add: `maxplayers="16"`
-	3. Add: `startparameters="-game insurgency -strictportbind -ip ${ip} -port ${port} +clientport ${clientport} +tv_port ${sourcetvport} -tickrate ${tickrate} +sv_setsteamaccount ${gslt} +map ${defaultmap} -maxplayers ${maxplayers} -workshop -norestart +sv_pure 0"`
+  2. Add: `maxplayers="16"`
+  3. Add: `startparameters="-game insurgency -strictportbind -ip ${ip} -port ${port} +clientport ${clientport} +tv_port ${sourcetvport} -tickrate ${tickrate} +sv_setsteamaccount ${gslt} +map ${defaultmap} -maxplayers ${maxplayers} -workshop -norestart +sv_pure 0"`
 
 ## Restart Insurgency Server
 1. Remote into VPS as `insserver` user.
 2. `./insserver restart`
 
-## TODO: Start Insurgency Server on Boot
-## TODO: Restart Insurgency Server Every Night
+## Add Cron Jobs
+The following lines can be added to the `insserver` user's cronjob file (run `crontab -e`):
+1. Every 3 minutes check the game server and restart it if it has crashed (this will not start game server it if was manually stopped):
+  * `*/3 * * * * /home/insserver/insserver monitor > /dev/null 2>&1`
+2. Every day at 12pm server time (probably UTC) restart the game server and install any updates:
+  * `0 12 * * *  /home/insserver/insserver force-update > /dev/null 2>&1`
