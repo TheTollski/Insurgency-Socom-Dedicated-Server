@@ -1,19 +1,22 @@
 2808241219 // ThirdPersonMod_v16
 
+2822779497 // abandoned_demolition_v1
 2782282184 // abandoned_v2
 2784589282 // blizzard_v3
 2804721789 // crossroads_demolition_v2
 2784615293 // crossroads_v5
 2784645020 // deathtrap_v1
-2804722349 // desertglory_demolition_v1
+//2804722349 // desertglory_demolition_v1
 2784649011 // desertglory_v2
 2780194883 // fishhook_v1
+2822781293 // frostfire_demolition_v1
 2784653093 // frostfire_v6
+2822783384 // nightstalker_demolition_v1
 2785155164 // nightstalker_v2
 2785163727 // requiem_v2
 2785221531 // sandstorm
 2786213520 // theruins
-2804722888 // theruins_demolition_v1
+2822800794 // theruins_demolition_v2
 2786218293 // vigilance_v1
 
 381256752 // dust2_b4
