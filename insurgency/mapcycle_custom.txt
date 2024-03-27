@@ -30,3 +30,29 @@ theruins occupy
 vigilance_v1 firefight
 vigilance_v1 infiltrate
 vigilance_v1 occupy
+
+dust2_b4 occupy
+estates_b4 firefight
+estates_b4 occupy
+//panama_canal_b2 firefight
+panama_canal_b2 occupy
+panama_canal_b2 push
+showdown firefight
+showdown occupy
+
+buhriz push
+contact push
+district push
+dry_canal push
+embassy push
+heights push
+kandagal push
+market push
+panj push
+peak push
+revolt push
+siege push
+sinjar push
+station push
+tell push
+verticality push
