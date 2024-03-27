@@ -22,3 +22,5 @@ vstdlib_s64.dll
 *.bsp
 *.nav
 *.vpk
+*.log
+*.cache
