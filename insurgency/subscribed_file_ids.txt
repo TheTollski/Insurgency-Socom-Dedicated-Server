@@ -1,6 +1,20 @@
-2777996540 // Socalm_v1
-2777945425 // abandoned_v2
-2777945749 // blizzard_v3
-2777946391 // crossroads_v5
-2777946816 // nightstalker_v2
-2777947223 // vigilance_v1
+2779249723 // Socalm_v2
+
+2779170001 // abandoned
+2779170670 // blizzard
+2779171235 // blizzard_v3
+2779171852 // crossroads
+2779176810 // crossroads_v5
+2779177080 // deathtrap
+2779177265 // deathtrap_v1
+2779180377 // desertglory
+2779180610 // fishhook
+2779180897 // frostfire
+2779267960 // frostfire_v6
+2779181452 // nightstalker
+2779181750 // nightstalker_v2
+2779182007 // requiem
+2779182308 // requiem_v2
+2779182682 // sandstorm
+2779182888 // theruins
+2779183087 // vigilance
