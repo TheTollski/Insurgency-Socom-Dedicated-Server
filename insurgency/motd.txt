@@ -1,1 +1,1 @@
-This is the MOTD!
+This is a test server for a brand new mod trying to recreate the Socom experience.
