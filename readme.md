@@ -30,6 +30,8 @@ Add SourceMod plugins:
 			Install: Put "lastx.smx" into "addons/sourcemod/plugins".
 			Configure: Set "sm_lastxhistory". Not sure where to set it permanently.
 			Use: Call "lastx".
+		Simple Player Stats: Tracks information about connections, played time, kills, deaths, and objectives for each player.
+			Install: Put "simpleplayerstats.smx" into "addons/sourcemod/plugins".
 		Sm_Allinfo 2.1.1: Stores data of players who connect to the server. https://forums.alliedmods.net/showthread.php?t=83330?t=83330
 			Install: Put "sm_allinfo_v2.1.1.smx"  into "addons/sourcemod/plugins".
 			Use: Call "sm_allinfo <player name>".
