@@ -18,6 +18,7 @@ tier0_s.dll
 tier0_s64.dll
 vstdlib_s.dll
 vstdlib_s64.dll
+
 *.bsp
 *.nav
 *.vpk

@@ -1,0 +1,1 @@
+start srcds.exe -usercon +maxplayers 24 +sv_lan 0 +map "market skirmish"
