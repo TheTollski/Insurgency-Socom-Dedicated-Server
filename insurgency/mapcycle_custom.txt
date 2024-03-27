@@ -1,5 +1,5 @@
 // abandoned_demolition_v1 skirmish
-// abandoned_v2 firefight
+abandoned_dz firefight
 blizzard_v3 firefight
 blizzard_v3 infiltrate
 crossroads_demolition_v2 skirmish
@@ -13,7 +13,7 @@ frostfire_v6 firefight
 nightstalker_demolition_v1 skirmish
 nightstalker_v2 firefight
 nightstalker_v2 infiltrate
-requiem_v2 firefight
+requiem_v2_d firefight
 sandstorm firefight
 theruins firefight
 theruins_demolition_v2 skirmish

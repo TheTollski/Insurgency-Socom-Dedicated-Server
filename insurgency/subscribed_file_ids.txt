@@ -1,7 +1,7 @@
 2966415750 // Revolution v1.3
 
 2822779497 // abandoned_demolition_v1
-2782282184 // abandoned_v2
+2878306139 // abandoned_dz
 2784589282 // blizzard_v3
 2804721789 // crossroads_demolition_v2
 2784615293 // crossroads_v5
@@ -12,7 +12,7 @@
 2784653093 // frostfire_v6
 2822783384 // nightstalker_demolition_v1
 2785155164 // nightstalker_v2
-2785163727 // requiem_v2
+2999564521 // requiem_v2_d
 2785221531 // sandstorm
 2786213520 // theruins
 2822800794 // theruins_demolition_v2

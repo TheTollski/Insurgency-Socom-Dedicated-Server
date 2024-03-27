@@ -23,7 +23,7 @@ Installing Metamod and SourceMod:
 		3. Put the "addons" and "cfg" folders inside the server's "insurgency" folder.
 		4. Restart server.
 		5. Type "sm" into server console to verify it worked.
-		6. Move "nextmap.smx" to "disabled" folder because incompatible with Insurgency. 
+		6. Move "nextmap.smx" to "disabled" folder because incompatible with Insurgency.
 
 Add admins: https://wiki.alliedmods.net/Adding_Admins_(SourceMod)
 
@@ -74,7 +74,7 @@ This is what I ended up doing:
 4. Modify startup script by editing `/home/insserver/lgsm/config-lgsm/insserver/common.cfg`.
   1. Add: `defaultmap="desertglory firefight"`
   2. Add: `maxplayers="16"`
-  3. Add: `startparameters="-game insurgency -strictportbind -ip ${ip} -port ${port} +clientport ${clientport} +tv_port ${sourcetvport} -tickrate ${tickrate} +sv_setsteamaccount ${gslt} +map ${defaultmap} -maxplayers ${maxplayers} -workshop -norestart +sv_pure 0"`
+  3. Add: `startparameters="-game insurgency -strictportbind -ip ${ip} -port ${port} +clientport ${clientport} +tv_port ${sourcetvport} -tickrate ${tickrate} +sv_setsteamaccount ${gslt} +map ${defaultmap} -maxplayers ${maxplayers} -workshop -norestart -condebug +sv_pure 0"`
 
 ## Restart Insurgency Server
 1. Remote into VPS as `insserver` user.
