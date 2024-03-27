@@ -25,3 +25,7 @@ Add SourceMod plugins:
 		Advertisements 0.7: Recurring messages to players. https://forums.alliedmods.net/showthread.php?t=221272
 			Install: Put "advertisements.smx" into "addons/sourcemod/plugins" and "advertisements.txt" into "addons/sourcemod/configs".
 			Configure: Set advertisement text in "addons/sourcemod/configs/advertisements.txt". Set variables ("sm_advertisements_enabled", "sm_advertisements_file", "sm_advertisements_interval") in "cfg/sourcemod/advertisements.cfg".
+		Sm_Allinfo 2.1.1: Stores data of players who connect to the server. https://forums.alliedmods.net/showthread.php?t=83330?t=83330
+			Install: Put "sm_allinfo_v2.1.1.smx"  into "addons/sourcemod/plugins".
+			Use: Call "sm_allinfo <player name>".
+			Note: Data is stored in "addons/sourcemod/logs/allinfo_players.txt".

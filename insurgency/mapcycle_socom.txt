@@ -1,9 +1,13 @@
 abandoned_v2 firefight
 abandoned_v2 occupy
 blizzard_v3 firefight
+blizzard_v3 occupy
 crossroads_v5 firefight
+crossroads_v5 occupy
 deathtrap_v1 firefight
+deathtrap_v1 occupy
 desertglory_v2 firefight
+desertglory_v2 occupy
 fishhook_v1 firefight
 fishhook_v1 occupy
 frostfire_v6 firefight
