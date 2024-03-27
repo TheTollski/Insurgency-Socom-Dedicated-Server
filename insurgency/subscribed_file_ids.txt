@@ -1,4 +1,4 @@
-2784214431 // ThirdPersonMod_v8
+2785166510 // ThirdPersonMod_v9
 
 2782282184 // abandoned_v2
 2784589282 // blizzard_v3
@@ -7,9 +7,9 @@
 2784649011 // desertglory_v2
 2780194883 // fishhook_v1
 2784653093 // frostfire_v6
-2779181750 // nightstalker_v2
-2779182308 // requiem_v2
-2779182682 // sandstorm
+2785155164 // nightstalker_v2
+2785163727 // requiem_v2
+2785221531 // sandstorm
 2779182888 // theruins
 2780473314 // vigilance_v1
 

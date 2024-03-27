@@ -13,8 +13,11 @@ fishhook_v1 occupy
 frostfire_v6 firefight
 frostfire_v6 occupy
 nightstalker_v2 firefight
+nightstalker_v2 occupy
 requiem_v2 firefight
+requiem_v2 occupy
 sandstorm firefight
+sandstorm occupy
 theruins firefight
 vigilance_v1 firefight
 vigilance_v1 occupy
