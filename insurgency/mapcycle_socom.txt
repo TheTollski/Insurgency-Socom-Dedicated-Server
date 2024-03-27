@@ -1,5 +1,5 @@
-abandoned_v2 skirmish
-blizzard_v3 skirmish
-crossroads_v5 skirmish
-nightstalker_v2 skirmish
-vigilance_v1 skirmish
+abandoned_v2 firefight
+blizzard_v3 firefight
+crossroads_v5 firefight
+nightstalker_v2 firefight
+vigilance_v1 firefight
