@@ -24,12 +24,12 @@ estates_b4 firefight
 showdown firefight
 
 // Insurgency Maps
-buhriz push
-drycanal push
-embassy push
+//buhriz push
+//drycanal push
+//embassy push
 ministry firefight
-sinjar push
-tell push
+//sinjar push
+//tell push
 
 //contact push
 //district push

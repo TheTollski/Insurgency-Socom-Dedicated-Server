@@ -68,11 +68,11 @@ This is what I ended up doing:
   1. Upload Metamod and SourceMod packages (the `.tar.gz` files) to /home/insserver/serverfiles/insurgency.
   2. Remote into VPS as `insserver` user.
   3. Navigate to serverfiles/insurgency (execute `cd serverfiles/insurgency/`).
-  4. Extract Metamod and SourceMod packages (execute `tar -xf mmsource-1.11.0-git1148-linux.tar.gz` and ` tar -xf sourcemod-1.11.0-git6911-linux.tar.gz`).
+  4. Extract Metamod and SourceMod packages (execute `tar -xf mmsource-1.11.0-git1148-linux.tar.gz` and `tar -xf sourcemod-1.11.0-git6911-linux.tar.gz`).
   5. You can delete the Metamod and SourceMod packages.
 3. Upload additional configuration files.
 4. Modify startup script by editing `/home/insserver/lgsm/config-lgsm/insserver/common.cfg`.
-  1. Add: `defaultmap="desert_glory firefight"`
+  1. Add: `defaultmap="desertglory firefight"`
   2. Add: `maxplayers="16"`
   3. Add: `startparameters="-game insurgency -strictportbind -ip ${ip} -port ${port} +clientport ${clientport} +tv_port ${sourcetvport} -tickrate ${tickrate} +sv_setsteamaccount ${gslt} +map ${defaultmap} -maxplayers ${maxplayers} -workshop -norestart +sv_pure 0"`
 
