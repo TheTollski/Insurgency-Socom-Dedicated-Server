@@ -1,0 +1,5 @@
+abandoned_v2 skirmish
+blizzard_v3 skirmish
+crossroads_v5 skirmish
+nightstalker_v2 skirmish
+vigilance_v1 skirmish

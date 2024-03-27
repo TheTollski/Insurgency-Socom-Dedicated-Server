@@ -1,1 +1,1 @@
-start srcds.exe -usercon +maxplayers 24 +sv_lan 0 +map "blizzard_v3 skirmish" -workshop
+start srcds.exe -usercon +maxplayers 24 +sv_lan 0 +map "nightstalker_v2 skirmish" -workshop
