@@ -13,7 +13,7 @@ frostfire_v6 firefight
 nightstalker_demolition_v1 skirmish
 nightstalker_v2 firefight
 nightstalker_v2 infiltrate
-requiem_v2_d firefight
+// requiem_v2 firefight
 sandstorm firefight
 theruins firefight
 theruins_demolition_v2 skirmish
@@ -24,21 +24,4 @@ estates_b4 firefight
 showdown firefight
 
 // Insurgency Maps
-//buhriz push
-//drycanal push
-//embassy push
 ministry firefight
-//sinjar push
-//tell push
-
-//contact push
-//district push
-//heights push
-//kandagal push
-//market push
-//panj push
-//peak push
-//revolt push
-//siege push
-//station push
-//verticality push
