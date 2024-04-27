@@ -25,3 +25,21 @@ showdown firefight
 
 // Insurgency Maps
 ministry firefight
+
+heights firefight
+market firefight
+panj firefight
+uprising firefight
+
+//contact firefight
+//district firefight
+//drycanal firefight
+//embassy firefight
+//kandagal firefight
+//peak firefight
+//revolt firefight
+//siege firefight
+//sinjar firefight
+//station firefight
+//tell firefight
+//verticality firefight
