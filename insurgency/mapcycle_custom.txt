@@ -29,7 +29,7 @@ ministry firefight
 heights firefight
 market firefight
 panj firefight
-uprising firefight
+//uprising firefight
 
 //contact firefight
 //district firefight
