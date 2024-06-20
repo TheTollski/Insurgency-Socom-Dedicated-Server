@@ -25,31 +25,31 @@
 	"1"
 	{
 		"type"		"S"
-		"text"		"{LIGHTBLUE}Notice: {DEFAULT}Join our Discord server at {GREEN}https://discord.gg/tRZ7jPdv8F{DEFAULT}"
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can join our Discord server at {GREEN}https://discord.gg/tRZ7jPdv8F{DEFAULT} to get notified when people are playing."
 	}
 	"2"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}Tip: {DEFAULT}If you die you can take over bots on your team by pressing the use button ('F' key by default)."
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can take over bots on your team by pressing the use button ('{GREEN}F{DEFAULT}' key by default) when you are dead."
 	}
 	"3"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}Tip: {DEFAULT}Enjoy the server? Add it to your favorites. You can also find others mod servers by filtering in the server browser using the tag 'revolution'."
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can join our Discord server at {GREEN}https://discord.gg/tRZ7jPdv8F{DEFAULT} to find clans that are recruiting."
 	}
 	"4"
 	{
 		"type"		"S"
-		"text"		"{ORANGE}Server Rule: {DEFAULT}No intentional spawn camping. Waiting at the enemy spawn and killing the enemy team when they respawn may result in a kick."
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can create a clan by typing {GREEN}!createclan{DEFAULT} or join a clan by typing {GREEN}!joinclan{DEFAULT}"
 	}
 	"5"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}Tip: {DEFAULT}If you have any technical issues then message us on Discord: https://discord.gg/tRZ7jPdv8F"
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can join our Discord server at {GREEN}https://discord.gg/tRZ7jPdv8F{DEFAULT} to get technical support or submit feedback."
 	}
 	"6"
 	{
 		"type"		"S"
-		"text"		"{LIGHTGREEN}Tip: {DEFAULT}On demolition maps you can plant and disarm bombs by holding the use button ('F' key by default)."
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can view your stats by typing {GREEN}!mystats{DEFAULT} or view the server leaderboard by typing {GREEN}!leaderboard{DEFAULT}"
 	}
 }

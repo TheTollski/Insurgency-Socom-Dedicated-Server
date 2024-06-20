@@ -54,40 +54,43 @@ Add SourceMod plugins. Recommended plugins:
 Follow the instructions here: https://linuxgsm.com/servers/insserver/
 
 This is what I ended up doing:
-1. Remote into VPS as default user.
+1. SSH into VPS as default user.
 2. (Ubuntu >= 20.10) Execute: `sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat lib32gcc-s1 lib32stdc++6 libsdl2-2.0-0:i386 steamcmd`
-3. `sudo adduser insserver`
-4. `su - insserver`
+3. `sudo adduser insuser`
+4. `su - insuser`
 5. `wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh insserver`
 6. `./insserver install`
 7. `./insserver start`
 
+## Ensure Firewall Allows Traffic
+1. If you cannot connect to your server when executing `connect <YourServerIpAddress>:27015` ingame, you may need to edit your VPS' firewall policy to allow connections from all IP addresses using the UDP and TCP protocols on the ports that you see when executing `./insserver details` in your SSH client.
+
 ## Setup Files
-1. SFTP into VPS using `insserver` user credentials.
+1. SFTP into VPS using `insuser` user credentials.
 2. Upload Metamod and SourceMod files.
-	1. Upload Metamod and SourceMod packages (the `.tar.gz` files) to /home/insserver/serverfiles/insurgency.
-	2. Remote into VPS as `insserver` user.
+	1. Upload Metamod and SourceMod packages (the `.tar.gz` files) to /home/insuser/serverfiles/insurgency.
+	2. SSH into VPS as `insuser` user.
 	3. Navigate to serverfiles/insurgency (execute `cd serverfiles/insurgency/`).
 	4. Extract Metamod and SourceMod packages (execute `tar -xf mmsource-1.11.0-git1148-linux.tar.gz` and `tar -xf sourcemod-1.11.0-git6911-linux.tar.gz`).
 	5. You can delete the Metamod and SourceMod packages.
 3. Upload additional configuration files.
-4. Modify startup script by editing `/home/insserver/lgsm/config-lgsm/insserver/common.cfg`.
+4. Modify startup script by editing `/home/insuser/lgsm/config-lgsm/insserver/common.cfg`.
 	1. Add: `defaultmap="desertglory firefight"`
 	2. Add: `maxplayers="16"`
 	3. Add: `startparameters="-game insurgency -strictportbind -ip ${ip} -port ${port} +clientport ${clientport} +tv_port ${sourcetvport} -tickrate ${tickrate} +sv_setsteamaccount ${gslt} +map ${defaultmap} -maxplayers ${maxplayers} -workshop -norestart -condebug +sv_pure 0"`
 
 ## Restart Insurgency Server
-1. Remote into VPS as `insserver` user.
+1. SSH into VPS as `insuser` user.
 2. `./insserver restart`
 
 ## Add Cron Jobs
-The following lines can be added to the `insserver` user's cronjob file (run `crontab -e`):
+The following lines can be added to the `insuser` user's cronjob file (run `crontab -e`):
 1. Every 3 minutes check the game server and restart it if it has crashed (this will not start game server it if was manually stopped):
-	* `*/3 * * * * /home/insserver/insserver monitor > /dev/null 2>&1`
+	* `*/3 * * * * /home/insuser/insserver monitor > /dev/null 2>&1`
 2. Every day at 12pm server time (probably UTC) restart the game server and install any updates:
-	* `0 12 * * *  /home/insserver/insserver force-update > /dev/null 2>&1`
+	* `0 12 * * *  /home/insuser/insserver force-update > /dev/null 2>&1`
 
 ## Adding Additional Instances
 1. `./linuxgsm.sh insserver`
-2. Edit `/home/insserver/lgsm/config-lgsm/insserver/insserver-2.cfg` to add `port="27016"`.
+2. Edit `/home/insuser/lgsm/config-lgsm/insserver/insserver-2.cfg` to add `port="27016"`.
 3. Set name?? `server.cfg`
