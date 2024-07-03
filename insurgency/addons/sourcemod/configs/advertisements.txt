@@ -52,4 +52,14 @@
 		"type"		"S"
 		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can view your stats by typing {GREEN}!mystats{DEFAULT} or view the server leaderboard by typing {GREEN}!leaderboard{DEFAULT}"
 	}
+	"7"
+	{
+		"type"		"S"
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}We play every night and have our Community Nights on Saturdays at 10PM Eastern."
+	}
+	"8"
+	{
+		"type"		"S"
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can help the Revolution community thrive by {GREEN}inviting your friends{DEFAULT}, {GREEN}chatting in our Discord{DEFAULT}, and, most importantly, by coming back to {GREEN}play with us frequently{DEFAULT}!"
+	}
 }

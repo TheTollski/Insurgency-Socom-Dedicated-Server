@@ -1,14 +1,14 @@
 // abandoned_demolition_v1 skirmish
 abandoned_v2_d firefight
 blizzard_v3 firefight
-blizzard_v3 infiltrate
+// blizzard_v3 infiltrate
 crossroads_demolition_v2 skirmish
 crossroads_v5 firefight
-crossroads_v5 infiltrate
+// crossroads_v5 infiltrate
 deathtrap_v1 firefight
 desertglory firefight
 fishhook_v1 firefight
-frostfire_demolition_v1 skirmish
+// frostfire_demolition_v1 skirmish
 frostfire_v6 firefight
 nightstalker_demolition_v1 skirmish
 nightstalker_v2 firefight
@@ -20,21 +20,23 @@ theruins_demolition_v2 skirmish
 vigilance_v1 firefight
 
 // Other Workshop Maps
-estates_b4 firefight
+de_dust2 firefight
+// estates_b4 firefight
+shellshock firefight
 showdown firefight
 
 // Insurgency Maps
 ministry firefight
 
+embassy firefight
 heights firefight
 market firefight
-panj firefight
-//uprising firefight
+// panj firefight
+// uprising firefight
 
 //contact firefight
 //district firefight
 //drycanal firefight
-//embassy firefight
 //kandagal firefight
 //peak firefight
 //revolt firefight
