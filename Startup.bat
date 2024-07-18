@@ -1,1 +1,1 @@
-start srcds.exe -usercon +maxplayers 16 +sv_lan 0 +map "crossroads_v5 firefight" -workshop +sv_pure 0
+start srcds.exe -usercon +maxplayers 16 +sv_lan 0 +map "crossroads_demolition_v2 skirmish" -workshop +sv_pure 0

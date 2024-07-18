@@ -1,4 +1,6 @@
 3009231973 // Revolution v1.4
+3291638384 // Socom Music v2
+3291262698 // SOCOM Map Vote Images
 
 // 2822779497 // abandoned_demolition_v1
 2999687281 // abandoned_v2_d

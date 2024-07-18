@@ -25,41 +25,41 @@
 	"1"
 	{
 		"type"		"S"
-		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can join our Discord server at {GREEN}https://discord.gg/tRZ7jPdv8F{DEFAULT} to get notified when people are playing."
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}Join our Discord server at {GREEN}https://discord.gg/tRZ7jPdv8F{DEFAULT} to get notified when people are playing."
 	}
 	"2"
 	{
 		"type"		"S"
-		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can take over bots on your team by pressing the use button ('{GREEN}F{DEFAULT}' key by default) when you are dead."
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}Take over bots on your team by pressing the use button ('{GREEN}F{DEFAULT}' key by default) when you are dead."
 	}
 	"3"
 	{
 		"type"		"S"
-		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can join our Discord server at {GREEN}https://discord.gg/tRZ7jPdv8F{DEFAULT} to find clans that are recruiting."
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}Join our Discord server at {GREEN}https://discord.gg/tRZ7jPdv8F{DEFAULT} to find clans that are recruiting."
 	}
 	"4"
 	{
 		"type"		"S"
-		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can create a clan by typing {GREEN}!createclan{DEFAULT} or join a clan by typing {GREEN}!joinclan{DEFAULT}"
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}Create a clan by typing {GREEN}!createclan{DEFAULT} or join a clan by typing {GREEN}!joinclan{DEFAULT}"
 	}
 	"5"
 	{
 		"type"		"S"
-		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can join our Discord server at {GREEN}https://discord.gg/tRZ7jPdv8F{DEFAULT} to get technical support or submit feedback."
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}Join our Discord server at {GREEN}https://discord.gg/tRZ7jPdv8F{DEFAULT} to get technical support or submit feedback."
 	}
 	"6"
 	{
 		"type"		"S"
-		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can view your stats by typing {GREEN}!mystats{DEFAULT} or view the server leaderboard by typing {GREEN}!leaderboard{DEFAULT}"
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}View your stats by typing {GREEN}!mystats{DEFAULT} or view the server leaderboard by typing {GREEN}!leaderboard{DEFAULT}"
 	}
 	"7"
 	{
 		"type"		"S"
-		"text"		"{LIGHTBLUE}Tip: {DEFAULT}We play every night and have our Community Nights on Saturdays at 10PM Eastern."
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}Please post any cool or funny gameplay clips in our Discord's {GREEN}#share-clips{DEFAULT} channel."
 	}
 	"8"
 	{
 		"type"		"S"
-		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can help the Revolution community thrive by {GREEN}inviting your friends{DEFAULT}, {GREEN}chatting in our Discord{DEFAULT}, and, most importantly, by coming back to {GREEN}play with us frequently{DEFAULT}!"
+		"text"		"{LIGHTBLUE}Tip: {DEFAULT}You can help the Revolution community thrive by {GREEN}inviting your friends{DEFAULT}, {GREEN}sharing on social media{DEFAULT}, and, most importantly, by coming back to {GREEN}play with us frequently{DEFAULT}!"
 	}
 }
